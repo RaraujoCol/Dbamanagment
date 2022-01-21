@@ -12,3 +12,5 @@ WHERE DDIPS.database_id = DB_ID()
 and I.name is not null
 AND DDIPS.avg_fragmentation_in_percent > 0
 ORDER BY T.name asc 
+
+
